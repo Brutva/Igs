@@ -1,0 +1,26 @@
+.scenario-page {
+  position: relative;
+}
+
+.scenario-layout,
+.scenario-options-grid {
+  align-items: stretch;
+}
+
+.scenario-sidebar {
+  align-self: start;
+}
+
+.scenario-main-card {
+  min-height: 100%;
+}
+
+.scenario-actions {
+  align-items: stretch;
+}
+
+@media (max-width: 639px) {
+  .scenario-actions {
+    flex-direction: column;
+  }
+}

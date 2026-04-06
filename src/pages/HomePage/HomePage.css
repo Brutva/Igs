@@ -1,0 +1,44 @@
+.home-page {
+  position: relative;
+}
+
+.home-hero-grid {
+  align-items: center;
+}
+
+.home-actions {
+  align-items: stretch;
+}
+
+.home-progress-grid,
+.home-highlight-grid,
+.home-scenarios-grid,
+.home-concepts-grid,
+.home-myths-grid {
+  align-items: stretch;
+}
+
+.home-section-head {
+  align-items: end;
+}
+
+.home-bottom-grid {
+  align-items: start;
+}
+
+@media (max-width: 639px) {
+  .home-section-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-progress-grid > * ,
+  .home-highlight-grid > * ,
+  .home-scenarios-grid > * ,
+  .home-concepts-grid > * ,
+  .home-myths-grid > * {
+    min-height: 100%;
+  }
+}

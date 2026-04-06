@@ -1,0 +1,12 @@
+.theory-page {
+  position: relative;
+}
+
+.theory-top-grid,
+.theory-content-grid {
+  align-items: start;
+}
+
+.theory-mobile-cta {
+  box-shadow: var(--card-shadow);
+}

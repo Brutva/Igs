@@ -1,0 +1,26 @@
+.quiz-page {
+  position: relative;
+}
+
+.quiz-layout,
+.quiz-options-grid {
+  align-items: stretch;
+}
+
+.quiz-sidebar {
+  align-self: start;
+}
+
+.quiz-main-card {
+  min-height: 100%;
+}
+
+.quiz-actions {
+  align-items: stretch;
+}
+
+@media (max-width: 639px) {
+  .quiz-actions {
+    flex-direction: column;
+  }
+}

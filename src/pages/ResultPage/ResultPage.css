@@ -1,0 +1,26 @@
+.result-page {
+  position: relative;
+}
+
+.result-grid,
+.result-top-grid,
+.result-coverage-grid,
+.result-plan-grid,
+.result-bottom-grid,
+.result-actions-grid {
+  align-items: stretch;
+}
+
+.result-sidebar {
+  align-self: start;
+}
+
+.result-note {
+  box-shadow: var(--card-shadow);
+}
+
+@media (max-width: 639px) {
+  .result-actions-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,19 @@
+.scenarios-page {
+  position: relative;
+}
+
+.scenarios-top-grid,
+.scenarios-side-grid,
+.scenarios-cards-grid {
+  align-items: stretch;
+}
+
+.scenarios-footer-note {
+  box-shadow: var(--card-shadow);
+}
+
+@media (max-width: 639px) {
+  .scenarios-top-grid {
+    gap: 1.25rem;
+  }
+}

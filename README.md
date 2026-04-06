@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # I.g.S
 
 
@@ -91,3 +92,102 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+=======
+# Interactive Insurance Guide
+
+Небольшое веб-приложение на **Next.js** про страхование простыми словами.
+Пользователь может пройти сценарии, ответить на вопросы, получить результат и посмотреть теорию в понятном формате.
+
+## Что есть в проекте
+
+- главная страница с hero-блоком, прогрессом и карточками
+- страница сценариев
+- отдельные страницы сценариев с пошаговыми вопросами
+- страница теории
+- квиз
+- страница результата
+- сохранение части прогресса в localStorage
+
+## Стек
+
+- Next.js
+- React
+- Tailwind CSS
+- Radix UI
+- Lucide React
+- Recharts
+
+## Структура проекта
+
+```bash
+src/
+  app/                # маршруты Next.js
+  components/         # общие компоненты
+  data/               # статичные данные и конфиги страниц
+  pages/              # крупные страницы, sections и components внутри них
+  utils/              # утилиты и работа с localStorage
+  hooks/              # кастомные хуки
+public/               # статические файлы
+```
+
+## Установка и запуск
+
+Установить зависимости:
+
+```bash
+npm install
+```
+
+Запустить проект в режиме разработки:
+
+```bash
+npm run dev
+```
+
+Открыть в браузере:
+
+```bash
+http://localhost:3000
+```
+
+Сборка проекта:
+
+```bash
+npm run build
+```
+
+Запуск production-сборки:
+
+```bash
+npm run start
+```
+
+## Полезные команды
+
+Проверка проекта линтером:
+
+```bash
+npm run lint
+```
+
+## Что не нужно загружать в Git
+
+В репозиторий не нужно добавлять:
+
+- `node_modules/`
+- `.next/`
+- `.env`
+- `.env.local`
+- `dist/`
+- `build/`
+- `out/`
+
+## Примечание
+
+Если после клонирования проекта у вас нет папки `node_modules`, это нормально.
+Она создаётся автоматически после команды:
+
+```bash
+npm install
+```
+>>>>>>> 1a6cbdf (Igs)
